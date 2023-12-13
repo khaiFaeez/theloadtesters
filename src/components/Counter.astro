@@ -1,0 +1,51 @@
+---
+import { Icon } from 'astro-icon'
+---
+        <div class="w-full max-w-5xl mx-auto px-4 md:px-6 py-16">
+
+            <!-- Animated Number Counter -->
+            <section class="grid gap-12 md:grid-cols-3 md:gap-16">
+                <!-- Block #1 -->
+                <article class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-[5rem] w-[5rem] text-primary" width="512" height="512" viewBox="0 0 512 512"><path fill="currentColor" d="M256.352 93.28c-65.93 0-125.644 4.402-168.39 11.402c-21.374 3.5-38.557 7.704-49.683 12.01c-5.563 2.155-9.59 4.392-11.624 6.02c-.637.51-.72.65-.95.897c.23.245.312.39.95.9c2.034 1.627 6.06 3.864 11.623 6.017c11.125 4.307 28.308 8.512 49.68 12.012c42.748 7 102.46 11.4 168.392 11.4c65.93 0 125.643-4.4 168.39-11.4c21.374-3.5 38.557-7.706 49.682-12.013c5.562-2.153 9.587-4.39 11.62-6.017c.64-.51.723-.655.952-.9c-.23-.247-.313-.39-.95-.9c-2.035-1.626-6.06-3.863-11.622-6.017c-11.125-4.307-28.308-8.512-49.682-12.01c-42.747-7-102.46-11.404-168.39-11.404zm-.352 9.183a163.82 16.505 0 0 1 92.246 2.867v27.258A163.82 16.505 0 0 1 256 135.473A163.82 16.505 0 0 1 92.182 118.97A163.82 16.505 0 0 1 256 102.462zm110.246 4.322a163.82 16.505 0 0 1 53.572 12.184a163.82 16.505 0 0 1-53.572 12.182v-24.367zM25 144.395v106.216h.154v8.585c.015-.522.326.768 3.977 2.98c4.275 2.587 11.744 5.63 21.66 8.442c3.438.976 7.193 1.93 11.21 2.862V155.956c-11.84-2.584-21.97-5.45-30.22-8.644a95.624 95.624 0 0 1-6.78-2.917zm462 .337a97.357 97.357 0 0 1-6.078 2.58c-13.184 5.104-31.178 9.373-53.272 12.99c-44.187 7.236-104.57 11.64-171.298 11.64c-60.444 0-115.64-3.622-158.352-9.68V280.08c11.88 1.733 24.956 3.294 39.1 4.63c73.627 6.96 164.876 6.96 238.504 0c36.813-3.48 66.478-8.47 86.308-14.093c9.915-2.812 17.386-5.855 21.66-8.443c1.945-1.178 2.918-2.08 3.428-2.604V144.732zM48 288.514V496h38V296.46c-14.57-2.36-27.292-5.02-38-7.946zm416 .19c-21.43 5.786-50.79 10.532-86.703 13.927c-75.007 7.092-166.884 7.092-241.89 0c-4.578-.432-9.045-.89-13.407-1.364V496h342V288.705z"/></svg>
+                  <h2>
+                        <span class="flex tabular-nums text-slate-900 text-5xl font-extrabold mb-2 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:40]'">
+                            <span class="supports-[counter-set]:sr-only">40</span>
+                        </span>
+                        <span class="inline-flex font-semibold bg-clip-text text-transparent bg-gradient-to-r from-black to-black mb-2">PROJECTS DELIVERED</span>
+                    </h2>
+                    <!-- <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem et repellendus fugiat fuga ducimus molestias placeat est quisquam vel ullam labore sint, accusamus minus quod saepe ut! Praesentium, itaque nulla!</p> -->
+                </article>
+                <!-- Block #2 -->
+                <article class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-[5rem] w-[5rem] text-primary" width="20" height="20" viewBox="0 0 20 20"><g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M5 9a2 2 0 1 0 0-4a2 2 0 0 0 0 4Zm0 1a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z"/><path d="M3.854 8.896a.5.5 0 0 1 0 .708l-.338.337A3.47 3.47 0 0 0 2.5 12.394v1.856a.5.5 0 1 1-1 0v-1.856a4.47 4.47 0 0 1 1.309-3.16l.337-.338a.5.5 0 0 1 .708 0Zm11.792-.3a.5.5 0 0 0 0 .708l.338.337A3.469 3.469 0 0 1 17 12.094v2.156a.5.5 0 0 0 1 0v-2.156a4.47 4.47 0 0 0-1.309-3.16l-.337-.338a.5.5 0 0 0-.708 0Z"/><path d="M14 9a2 2 0 1 1 0-4a2 2 0 0 1 0 4Zm0 1a3 3 0 1 1 0-6a3 3 0 0 1 0 6Zm-4.5 3.25a2.5 2.5 0 0 0-2.5 2.5v1.3a.5.5 0 0 1-1 0v-1.3a3.5 3.5 0 0 1 7 0v1.3a.5.5 0 1 1-1 0v-1.3a2.5 2.5 0 0 0-2.5-2.5Z"/><path d="M9.5 11.75a2 2 0 1 0 0-4a2 2 0 0 0 0 4Zm0 1a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z"/></g></svg>
+                    <h2>
+                        <span class="flex tabular-nums text-slate-900 text-5xl font-extrabold mb-2 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:70]'">
+                            <span class="supports-[counter-set]:sr-only">70</span>
+                        </span>
+                        <span class="inline-flex font-semibold bg-clip-text text-transparent bg-gradient-to-r from-black to-black mb-2">Happy Clients</span>
+                    </h2>
+                    <!-- <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt provident magni quod unde cupiditate? Eaque at nemo odio accusamus hic aspernatur deleniti fugit, incidunt officiis similique odit recusandae beatae facere!</p> -->
+                </article>
+                <!-- Block #3 -->
+                <article class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-[5rem] w-[5rem] text-primary" width="24" height="24" viewBox="0 -1 24 24"><path fill="currentColor" d="m2 8.654l2.813 2.822l6.332-6.35l-2.814-2.823l-6.332 6.35zm4.441 8.128l2.11-2.117a.993.993 0 0 1 1.408 0a1 1 0 0 1 0 1.411l-2.11 2.117a1 1 0 0 1 0 1.411L6.44 21.015a.993.993 0 0 1-1.407 0l-1.407-1.41a1 1 0 0 1 0-1.412l1.407-1.411a.993.993 0 0 1 1.407 0zm9.146-6.35l6.331-6.35l-1.407-1.412l-6.331 6.35c-.777-.78-.912-1.907-.302-2.52L19.406.956c.61-.612 1.735-.477 2.512.303l1.407 1.41c.778.78.913 1.909.302 2.52l-5.528 5.545c-.61.612-1.735.477-2.512-.303zm-.924 3.866L9.738 9.36l-.704.706l4.925 4.939l.704-.706zm1.407 1.412l-.704.705l1.759 1.764c.194.195.51.195.703 0a.5.5 0 0 0 0-.705L16.07 15.71zM2.06 5.77a1.5 1.5 0 0 1 .291-1.704l1.407-1.41a1.49 1.49 0 0 1 1.699-.293L6.924.892a1.986 1.986 0 0 1 2.814 0l2.814 2.823a2 2 0 0 1 0 2.822l-1.407 1.411l8.09 8.114a2.5 2.5 0 0 1 0 3.528a2.482 2.482 0 0 1-3.517 0l-8.09-8.114l-1.408 1.411c-.777.78-2.037.78-2.814 0L.592 10.065a2 2 0 0 1 0-2.823l1.467-1.47z"/></svg>
+                  <h2>
+                        <span class="flex tabular-nums text-slate-900 text-5xl font-extrabold mb-2 transition-[_--num] duration-[3s] ease-out [counter-set:_num_var(--num)] supports-[counter-set]:before:content-[counter(num)]" x-data="{ shown: false }" x-intersect="shown = true" :class="shown && '[--num:149]'">
+                            <span class="supports-[counter-set]:sr-only">149</span>+
+                        </span>
+                        <span class="inline-flex font-semibold bg-clip-text text-transparent bg-gradient-to-r from-black to-black mb-2">High Quality Products</span>
+                    </h2>
+                    <!-- <p class="text-sm text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore libero eos dignissimos error eum ducimus id reprehenderit quaerat beatae praesentium, nostrum totam natus! Cum, cupiditate ab dolor unde recusandae ipsam?</p> -->
+                </article>
+            </section>
+            <!-- End: Animated Number Counter -->
+
+        </div>
+<style>
+   @property --num {
+        syntax: '<integer>';
+        initial-value: 0;
+        inherits: false;
+    }
+</style>

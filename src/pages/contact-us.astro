@@ -1,0 +1,50 @@
+---
+import Stats from '@/components/Stats.astro';
+import Features from '@/components/Features.astro';
+import HeroSection from '@/components/HeroSection.astro';
+import Layout from '@/layouts/Layout.astro';
+import Testimonials from '@/components/Testimonials.astro';
+import CallToAction from '@/components/CallToAction.astro';
+import Blog from '@/components/Blog.astro';
+import Container from "@/components/Container.astro";
+---
+
+<Layout title="Welcome to Astrolus.">
+	<main class="space-y-40 mb-40">
+    <section class="px-2 py-32 bg-white md:px-0">
+      <div class="container items-center max-w-6xl px-8 mx-auto xl:px-5">
+
+<div class="relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+    </div>
+    <Container>
+        <div class="relative pt-36 ml-auto">
+            <div class="lg:w-2/3 text-center mx-auto">
+                <h1 class="text-gray-900  font-bold text-5xl md:text-6xl xl:text-7xl">Contact Us</span></h1>
+                <p class="mt-8 text-gray-700 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!</p>
+
+                <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 ">Address</h6>
+                        <p class="mt-2 text-gray-500">Unit 2-1, Level 2, The Podium, Tower, 3 UOA Business Park, 1, Jalan Pengaturcara, U1/51A, 40150 Shah Alam, Selangor</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 ">Hours</h6>
+                        <p class="mt-2 text-gray-500"> Opens 8:30 am Mon</p>
+                    </div>
+                    <div class="text-left">
+                        <h6 class="text-lg font-semibold text-gray-700 ">Phone</h6>
+                        <p class="mt-2 text-gray-500">012-933 1169</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </Container>
+</div>
+    </div>
+    </section>
+	</main>
+</Layout>

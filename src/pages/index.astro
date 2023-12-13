@@ -1,0 +1,102 @@
+---
+import Stats from '@/components/Stats.astro';
+import Features from '@/components/Features.astro';
+// import HeroSection from '@/components/HeroSection.astro';
+import Layout from '@/layouts/Layout.astro';
+import Testimonials from '@/components/Testimonials.astro';
+import CallToAction from '@/components/CallToAction.astro';
+import Blog from '@/components/Blog.astro';
+import Swiper from '@/components/Swiper.astro';
+import Counter from '@/components/Counter.astro'
+import Container from "@/components/Container.astro"
+---
+
+<Layout title="Welcome to Astrolus.">
+	<main class="space-y-40 mb-40">
+		<!-- <HeroSection/> -->
+		<Swiper />
+		<Container>
+		<div class="py-8 px-10">
+			<h2 class="text-base lg:text-xl text-center font-bold">LOADTESTERS</h2>
+			<div class="h-[3px] w-1/5 mx-auto bg-primary my-5"></div>
+			<p class="leading-relaxed lg:text-lg">LOADTESTERS is a trusted provider of comprehensive pile testing services using advanced Bi-Directional Load Testing (BDLT) methods. With our expertise in geotechnical engineering and state-of-the-art equipment, we offer accurate and reliable assessments of pile integrity, load capacity, and performance. Our innovative approach ensures that your pile foundations meet stringent quality standards, comply with industry regulations, and provide the required strength and stability for your construction projects.</p>
+		</div>
+		</Container>
+		<!-- <Features/> -->
+		<Counter />
+
+		<Container>
+
+      <div class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center px-4 py-8">
+        <div class="md:5/12 lg:w-1/2">
+          <img
+            src="https://lh5.googleusercontent.com/p/AF1QipPdbkvI47S4CylWH9aamBGH9ULb_LY2QOrHLgj3=w750-h401-p-k-no"
+            alt="image"
+            loading="lazy"
+            width=""
+            height=""
+            class="w-full"
+          />
+        </div>
+        <div class="md:7/12 lg:w-1/2">
+          <h2 class="text-3xl font-bold text-gray-900 md:text-4xl ">
+            CONTENT #1
+          </h2>
+          <p class="my-8 text-gray-800">
+            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
+            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia. <br> <br> Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
+          </p>
+        </div>
+      </div>
+
+			<div class="space-y-6 justify-between bg-base-1  text-gray-600 md:flex flex-row md:gap-6 md:space-y-0 lg:gap-12 lg:items-center px-4 py-8">
+        <div class="md:5/12 lg:w-1/2">
+          <img
+            src="https://lh5.googleusercontent.com/p/AF1QipPdbkvI47S4CylWH9aamBGH9ULb_LY2QOrHLgj3=w750-h401-p-k-no"
+            alt="image"
+            loading="lazy"
+            width=""
+            height=""
+            class="w-full"
+          />
+        </div>
+
+        <div class="md:7/12 lg:w-1/2">
+          <h2 class="text-3xl font-bold text-gray-900 md:text-4xl ">
+            CONTENT #2
+          </h2>
+          <p class="my-8 text-gray-800">
+            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
+            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia. <br> <br> Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
+          </p>
+        </div>
+      </div>
+
+			<div class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center px-4 py-8">
+        <div class="md:5/12 lg:w-1/2">
+          <img
+            src="https://lh5.googleusercontent.com/p/AF1QipPdbkvI47S4CylWH9aamBGH9ULb_LY2QOrHLgj3=w750-h401-p-k-no"
+            alt="image"
+            loading="lazy"
+            width=""
+            height=""
+            class="w-full"
+          />
+        </div>
+        <div class="md:7/12 lg:w-1/2">
+          <h2 class="text-3xl font-bold text-gray-900 md:text-4xl ">
+            CONTENT #3
+          </h2>
+          <p class="my-8 text-gray-800">
+            Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
+            Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia. <br> <br> Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
+          </p>
+        </div>
+      </div>
+    </Container>
+		<!-- <Stats/> -->
+		<!-- <Testimonials/> -->
+		<!-- <CallToAction/> -->
+		<!-- <Blog/> -->
+	</main>
+</Layout>
